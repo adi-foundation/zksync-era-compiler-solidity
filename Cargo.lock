@@ -442,6 +442,7 @@ dependencies = [
  "structopt",
  "thiserror",
  "which",
+ "yul-syntax-tools",
 ]
 
 [[package]]
@@ -1841,6 +1842,17 @@ source = "registry+https://github.com/rust-lang/crates.io-index"
 checksum = "05f360fc0b24296329c78fda852a1e9ae82de9cf7b27dae4b7f62f118f77b9ed"
 dependencies = [
  "tap",
+]
+
+[[package]]
+name = "yul-syntax-tools"
+version = "1.5.2"
+source = "git+https://github.com/matter-labs/yul-syntax-tools?branch=dev#c38d5356d90eeda9ed03864ebe604247ebaab377"
+dependencies = [
+ "anyhow",
+ "regex",
+ "serde",
+ "thiserror",
 ]
 
 [[package]]
