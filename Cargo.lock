@@ -1847,7 +1847,6 @@ dependencies = [
 [[package]]
 name = "yul-syntax-tools"
 version = "1.5.2"
-source = "git+https://github.com/matter-labs/yul-syntax-tools?branch=dev#c38d5356d90eeda9ed03864ebe604247ebaab377"
 dependencies = [
  "anyhow",
  "regex",
