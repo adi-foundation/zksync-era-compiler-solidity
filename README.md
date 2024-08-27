@@ -26,7 +26,7 @@ We recommend at least 4 GB of RAM available for the build process.
 1. **Install via npm**:
    - Use [ZKsync CLI](https://docs.zksync.io/build/tooling/zksync-cli/) to obtain a compiler package and prepare a project environment. After the installation you can modify a hardhat configuration file in the project and specify `zksolc` version there. Use `npx hardhat compile` or `yarn hardhat compile` to compile. [@matterlabs/hardhat-zksync-solc](https://docs.zksync.io/build/tooling/hardhat/getting-started) package will be used from npm repo.
 2. **Download prebuilt binaries**:
-   - Download [solc](https://github.com/matter-labs/era-solidity/releases) and [zksolc](https://github.com/matter-labs/zksolc-bin) binaries directly from GitHub. Use the CLI or Hardhat to compile contracts.
+   - Download [solc](https://github.com/adi-foundation/zksync-era-solidity/releases) and [zksolc](https://github.com/adi-foundation/zksync-era-zksolc-bin) binaries directly from GitHub. Use the CLI or Hardhat to compile contracts.
 3. **Build binaries from sources**:
    - Build binaries using the guide below. Use the CLI or Hardhat to compile contracts.
 
@@ -99,8 +99,8 @@ We recommend at least 4 GB of RAM available for the build process.
 
    Use the following commands to clone and checkout the ZKsync Solidity compiler repository:
    ```shell
-   git clone https://github.com/matter-labs/era-compiler-solidity.git
-   cd era-compiler-solidity
+   git clone https://github.com/adi-foundation/zksync-era-compiler-solidity.git
+   cd zksync-era-compiler-solidity
    git checkout <ref>
    ```
 
